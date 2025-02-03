@@ -10,7 +10,6 @@ class Solution {
             where = "equal";
         }
         int[][] answer = new int[size][size];
-        int[] temp = new int[size];
         
         if (where.equals("left")) {
             for(int i=0; i < arr.length; i++) {
